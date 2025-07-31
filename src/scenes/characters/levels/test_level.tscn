@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://chw5xdvotpemv"]
+
+[ext_resource type="PackedScene" uid="uid://ceumarvn48pi7" path="res://src/scenes/characters/levels/tilemap.tscn" id="1_o0124"]
+[ext_resource type="PackedScene" uid="uid://cy53qwodknu3b" path="res://src/scenes/characters/player/player.tscn" id="2_g5lvh"]
+
+[node name="TestLevel" type="Node2D"]
+
+[node name="Map" parent="." instance=ExtResource("1_o0124")]
+position = Vector2(0, -18)
+
+[node name="Player" parent="." instance=ExtResource("2_g5lvh")]
+position = Vector2(93, 142)
